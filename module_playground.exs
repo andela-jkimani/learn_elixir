@@ -11,4 +11,8 @@ defmodule ModulePlayground do
     puts param1
     puts "Ending output"
   end
+
+  def print_sum do
+    ModulePlayground.Misc.Util.Math.add(1,2)
+  end
 end
