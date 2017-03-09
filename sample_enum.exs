@@ -1,5 +1,5 @@
 defmodule Sample.Enum do
-  def first_element(list) do
-    hd(list) 
-  end
+  def first_element([]), do: nil
+
+  def first_element([head | _]), do: head
 end
